@@ -1,0 +1,7 @@
+font-family:- "Inter" for nav-links, "Pompiere" for header heading, "Galada" for header-paragraph
+background-color:- For Header -> rgb(84, 51, 16)
+background-color:- For nav-links -> rgb(116, 81, 45)
+background-color for coffee-section #DBBCA1
+
+Font-family for review section -> heading-> Montserrat, for reviews -> poppins
+

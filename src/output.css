@@ -554,15 +554,73 @@ video {
   --tw-contain-style:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 /* Poppins */
 
-/* Inter Google Font Link */
+/* Inter Google Font */
+
+/* Pompiere Font Family */
+
+.pompiere-family{
+  font-family: "Pompiere", sans-serif;
+}
+
+/* Galada Font Family */
+
+.galada-family{
+  font-family: "Galada", cursive;
+}
+
+/* Monsterrat Family */
+
+/* Poppins Family */
 
 .test-red{
   border:1px solid red;
 }
 
-.background--brown{
+.test-green{
+  border: 1px solid green;
+}
+
+.background--solid-brown{
+  background-color: rgb(84, 51, 16);
+}
+
+.background--light-brown{
   background-color: rgb(116, 81, 45);
 }
 
@@ -570,39 +628,18 @@ video {
   color:#F8F4E1
 }
 
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
+.text-solid-brown{
+  color:rgb(84, 51, 16);
 }
 
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
+.mx-\[10rem\] {
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
-.mx-12 {
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.mx-\[4rem\] {
-  margin-left: 4rem;
-  margin-right: 4rem;
-}
-
-.mx-\[8rem\] {
-  margin-left: 8rem;
-  margin-right: 8rem;
-}
-
-.mx-\[12rem\] {
-  margin-left: 12rem;
-  margin-right: 12rem;
+.mx-\[15rem\] {
+  margin-left: 15rem;
+  margin-right: 15rem;
 }
 
 .mx-\[20rem\] {
@@ -610,26 +647,12 @@ video {
   margin-right: 20rem;
 }
 
-.mx-\[25rem\] {
-  margin-left: 25rem;
-  margin-right: 25rem;
-}
-
-.mx-\[22rem\] {
-  margin-left: 22rem;
-  margin-right: 22rem;
+.ml-0 {
+  margin-left: 0px;
 }
 
 .flex {
   display: flex;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.w-\[100\%\] {
-  width: 100%;
 }
 
 .w-\[15\%\] {
@@ -640,12 +663,8 @@ video {
   width: 50%;
 }
 
-.w-\[30\%\] {
-  width: 30%;
-}
-
-.w-\[40\%\] {
-  width: 40%;
+.w-\[55\%\] {
+  width: 55%;
 }
 
 .flex-col {
@@ -656,56 +675,105 @@ video {
   align-items: center;
 }
 
-.justify-between {
-  justify-content: space-between;
+.justify-center {
+  justify-content: center;
 }
 
-.gap-4 {
-  gap: 1rem;
+.gap-\[2rem\] {
+  gap: 2rem;
+}
+
+.gap-\[3rem\] {
+  gap: 3rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .rounded {
   border-radius: 0.25rem;
 }
 
-.bg-\[\#2f1f14\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(47 31 20 / var(--tw-bg-opacity));
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+.p-4 {
+  padding: 1rem;
 }
 
 .p-2 {
   padding: 0.5rem;
 }
 
-.px-\[1rem\] {
+.px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.py-\[1rem\] {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.pe-2 {
+  padding-inline-end: 0.5rem;
+}
+
+.pe-4 {
+  padding-inline-end: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-\[1\.8rem\] {
+  font-size: 1.8rem;
 }
 
 .text-\[10px\] {
   font-size: 10px;
 }
 
-.text-\[2rem\] {
-  font-size: 2rem;
-}
-
-.text-\[1rem\] {
-  font-size: 1rem;
+.text-\[3rem\] {
+  font-size: 3rem;
 }
 
 .text-\[1\.5rem\] {
   font-size: 1.5rem;
+}
+
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+
+.text-\[2\.5rem\] {
+  font-size: 2.5rem;
 }
 
 .text-\[4rem\] {
@@ -716,17 +784,12 @@ video {
   text-transform: capitalize;
 }
 
-.text-white {
+.text-\[\#F8F4E1\] {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(248 244 225 / var(--tw-text-opacity));
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.text-\[brown\] {
-  --tw-text-opacity: 1;
-  color: rgb(165 42 42 / var(--tw-text-opacity));
+.first\:bg-\[\#F8F4E1\]:first-child {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 244 225 / var(--tw-bg-opacity));
 }

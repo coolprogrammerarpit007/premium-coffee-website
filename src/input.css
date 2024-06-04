@@ -5,68 +5,39 @@
 @layer components{
 
     /* Poppins */
-    .poppins-thin {
+    
+      .poppins-family {
         font-family: "Poppins", sans-serif;
-        font-weight: 100;
-        font-style: normal;
       }
       
-      .poppins-extralight {
-        font-family: "Poppins", sans-serif;
-        font-weight: 200;
-        font-style: normal;
-      }
       
-      .poppins-light {
-        font-family: "Poppins", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-      }
       
-      .poppins-regular {
-        font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
       
-      .poppins-medium {
-        font-family: "Poppins", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-      }
-      
-      .poppins-semibold {
-        font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        font-style: normal;
-      }
-      
-      .poppins-bold {
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-      }
-      
-      .poppins-extrabold {
-        font-family: "Poppins", sans-serif;
-        font-weight: 800;
-        font-style: normal;
-      }
-      
-      .poppins-black {
-        font-family: "Poppins", sans-serif;
-        font-weight: 900;
-        font-style: normal;
-      }
-
-    /* Inter Google Font Link */
+    /* Inter Google Font */
     .inter-family{
         font-family: "Inter", sans-serif;
     }
 
-    .background--color{
-        background-color: cadetblue;
+    /* Pompiere Font Family */
+    .pompiere-family{
+        font-family: "Pompiere", sans-serif;
     }
+
+    /* Galada Font Family */
+    .galada-family{
+        font-family: "Galada", cursive;
+    }
+
+    /* Monsterrat Family */
+    .monsterrat-family{
+        font-family: "Montserrat", sans-serif;
+    }
+
+    /* Poppins Family */
+    .poppins-family{
+        font-family: "Poppins", sans-serif;
+    }
+    
 
     .test-red{
         border:1px solid red;
@@ -80,12 +51,23 @@
         border:1px solid blue;
     }
 
-    .background--brown{
+    .background--solid-brown{
+        background-color: rgb(84, 51, 16);
+    }
+    .background--light-brown{
         background-color: rgb(116, 81, 45);
+    }
+
+    .background--salamon{
+        background-color:#DBBCA1
     }
 
     .text--cream{
         color:#F8F4E1
+    }
+
+    .text-solid-brown{
+        color:rgb(84, 51, 16);
     }
 
 
