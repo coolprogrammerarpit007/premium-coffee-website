@@ -756,6 +756,42 @@ video {
   gap: 6rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-\[5rem\] {
+  gap: 5rem;
+}
+
+.gap-\[10rem\] {
+  gap: 10rem;
+}
+
+.gap-\[50rem\] {
+  gap: 50rem;
+}
+
+.gap-\[20rem\] {
+  gap: 20rem;
+}
+
+.gap-\[15rem\] {
+  gap: 15rem;
+}
+
+.gap-\[2rem\] {
+  gap: 2rem;
+}
+
+.gap-\[2\.5rem\] {
+  gap: 2.5rem;
+}
+
+.gap-\[4rem\] {
+  gap: 4rem;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -766,6 +802,10 @@ video {
 
 .rounded-\[2rem\] {
   border-radius: 2rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
 }
 
 .border-none {
@@ -782,6 +822,10 @@ video {
 }
 
 .p-4 {
+  padding: 1rem;
+}
+
+.p-\[1rem\] {
   padding: 1rem;
 }
 
@@ -808,6 +852,16 @@ video {
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pe-4 {

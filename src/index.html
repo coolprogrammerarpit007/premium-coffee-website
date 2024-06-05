@@ -144,8 +144,48 @@
     <!-- **************************************************** -->
     <!-- Footer Form Section -->
 
-    <footer class="footer-section">
-        <div class="footer-container"></div>
+    <footer class="footer-section background--solid-brown p-[1rem]">
+        <div class="footer-container grid grid-cols-3 gap-[10rem]">
+
+            <!-- Contact form -->
+            <div class="contact-form">
+                <h2 class="text-white capitalize text-[3rem]">contact us</h2>
+                <p class="text-white capitalize text-[2rem]">send us a message</p>
+                <form id="my-form" class="flex flex-col gap-3">
+                    <input type="text" placeholder="Enter your full name" class="p-4 rounded-2xl">
+                    <input type="email" name="email" id="email" placeholder="Enter your email here" class="p-4 rounded-2xl">
+                    <textarea name="msg" id="msg" cols="50" rows="15" placeholder="Enter your message here" class="p-4 rounded-2xl"></textarea>
+                    <input type="submit" value="Submit" class="w-[50%] py-4 px-6 rounded-lg background--salamon text-white">
+                </form>
+            </div>
+
+            <!-- Contact Links -->
+            <div class="contact-links capitalize text-white  text-center flex flex-col gap-[4rem]">
+                <div class="our-sitemap">
+                    <p class="text-[3rem]">sitemap</p>
+                    <p class="text-[2rem]">all our pages</p>
+                </div>
+
+                <ul class="footer-links flex flex-col gap-[2.5rem] text-[1.5rem]">
+                    <li class="footer-link">home</li>
+                    <li class="footer-link">about us</li>
+                    <li class="footer-link"> feature</li>
+                    <li class="footer-link">pricing</li>
+                    <li class="footer-link">contact us</li>
+                </ul>
+            </div>
+
+            <!-- Contact Details -->
+            <div class="contact-details flex flex-col gap-[6rem]">
+                <div class="brang-logo w-[50%]">
+                    <img src="./imgs/logo.png" alt="logo">
+                </div>
+                <div class="contact-person-details text-white text-[1.5rem]">
+                    <p>+91-7851468432</p>
+                    <p>Email: coffee@premium.in</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
