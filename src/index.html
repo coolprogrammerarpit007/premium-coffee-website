@@ -41,25 +41,31 @@
     <!-- Navigation Section -->
     <nav class="navbar-section background--solid-brown p-2">
         <!-- Navigation Container -->
-        <div class="navbar-container flex items-center p-2">
+        <div class="navbar-container flex sm:flex-row flex-col items-center sm:justify-start justify-center sm:p-2 p-0">
             <!-- Logo Image -->
-            <div class="logo-img-container w-[15%]">
-                <img src="./imgs/logo.png" alt="coffee-brand logo" class="logo-img">
+            <div class="logo-img-container w-[50%] sm:w-[15%]">
+                <img src="./imgs/logo.png" alt="coffee-brand logo" class="logo-img ml-[5.5rem] sm:ml-0">
             </div>
 
             <!-- Navigation Links -->
-            <ul class="nav-links flex items-center gap-[3rem] text-[1.5rem] capitalize text--cream background--light-brown  rounded-lg  ">
+            <ul class="nav-links hidden sm:flex flex-col sm:flex-row items-center justify-center sm:justify-start sm:gap-[3rem]  text-[1.5rem] capitalize text--cream background--light-brown  rounded-lg w-[50%] sm:w-[50%]">
                 <li class="nav-link first:bg-[#F8F4E1] text-solid-brown py-2 px-4 rounded-lg">home</li>
                 <li class="nav-link">services</li>
                 <li class="nav-link">company</li>
                 <li class="nav-link">news</li>
                 <li class="nav-link pe-4">contact us</li>
             </ul>
+
+            <!-- Hamburger menu -->
+            <img src="./imgs/menu.png" id="menu-btn" alt="menu" class="bg-white p-2 rounded w-[5%] block sm:hidden">
+
+            <!-- close-btn -->
+            <img src="./imgs/close.png" alt="close" class="bg-white p-2 rounded w-[5%] hidden sm:hidden" id="close-btn">
         </div>
     </nav>
 
     <!-- Header Section -->
-    <header class="header-section p-2  background--solid-brown">
+    <header class="header-section p-2  background--solid-brown flex justify-center items-center sm:justify-start">
         <!-- header container -->
         <div class="header-container p-2  flex flex-col gap-1 capitalize text-[#F8F4E1]  w-[55%] items-center">
             <div>
@@ -188,4 +194,5 @@
         </div>
     </footer>
 </body>
+<script src="./index.js"></script>
 </html>
